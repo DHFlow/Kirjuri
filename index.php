@@ -1,7 +1,7 @@
 <?php
 require_once './include_functions.php';
 ksess_verify(3); // View only or higher
-//proyecto CUC
+//Proyecto CUC
 if ($_SESSION['user']['access'] === "3")
 {
   header('Location: add_case.php');
